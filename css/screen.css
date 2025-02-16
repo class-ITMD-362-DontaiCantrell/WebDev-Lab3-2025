@@ -22,7 +22,7 @@ time,tr,tt,u,ul,var,video {
 }
 
 article,aside,details,figcaption,figure,
-ooter,header,hgroup,main,menu,nav,section {
+footer,header,hgroup,main,menu,nav,section {
   display:block
 }
 
@@ -108,7 +108,7 @@ select { /* 1 */
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 
- button {
+button {
   appearance: none; /* Use the standard property */
   -webkit-appearance: none; /* Vendor prefix for WebKit browsers */
   -moz-appearance: none; /* Vendor prefix for Mozilla browsers */
@@ -126,11 +126,6 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
 /**
  * Restore the focus styles unset by the previous rule.
  */
@@ -139,10 +134,6 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -222,12 +213,13 @@ input[type="number"]::-webkit-outer-spin-button {
  */
 
 [type="search"] {
-  appearance: textfield; /* 1 */
+  appearance: textfield;
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
 input[type="search"] {
+  appearance: textfield;
   -webkit-appearance: textfield;
 }
 
@@ -242,10 +234,6 @@ input[type="search"] {
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-input[type="search"] {
   -webkit-appearance: none;
 }
 
@@ -294,7 +282,7 @@ label {
 
 /* Font stack */
 body {
-  font-family:Verdana, Tahoma, sans-serif 
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 /* Mobile-scale form styles */
