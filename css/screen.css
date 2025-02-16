@@ -261,5 +261,46 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+/* Font stack */
+body {
+  font-family: 'YourDesiredFont', 'BackupFont', sans-serif;
+}
 
+/* Mobile-scale form styles */
+form {
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
 /* ===== STATE STYLES ======= */
