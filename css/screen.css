@@ -263,7 +263,7 @@ label {
 
 /* Font stack */
 body {
-  font-family: 'YourDesiredFont', 'BackupFont', sans-serif;
+  font-family:Verdana, Tahoma, sans-serif 
 }
 
 /* Mobile-scale form styles */
