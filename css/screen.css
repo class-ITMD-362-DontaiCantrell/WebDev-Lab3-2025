@@ -204,6 +204,11 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+#mobile-form{
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1.182em; /* 26px / ~ 120% */
+}
 
 /* ===== STATE STYLES ======= */
 
