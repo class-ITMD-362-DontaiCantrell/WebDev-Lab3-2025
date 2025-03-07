@@ -246,7 +246,7 @@ label {
   html {
     font-size: 1.25em;
     line-height: 1.25em;
-  }
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   #form {
     margin: 100px auto;
